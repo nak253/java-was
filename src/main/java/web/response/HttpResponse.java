@@ -37,6 +37,7 @@ public class HttpResponse {
         responseCookies();
         dos.writeBytes("\r\n");
         responseBody(body);
+        //
     }
 
     private void responseCookies() throws IOException {
